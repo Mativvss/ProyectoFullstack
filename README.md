@@ -6,42 +6,42 @@ Sitio web de la tienda online Level-Up Gamer, hecho para la Evaluación Parcial 
 Level-Up Gamer es una tienda chilena de productos para gamers (consolas, accesorios, computadores, sillas, etc). Este proyecto es el front-end del sitio, hecho con HTML, CSS y JavaScript.
 
 levelup-react/
-├── public/                          Archivos estáticos (se sirven tal cual)
-│   ├── index.html                   Página base donde React dibuja la app
+├── public/                       
+│   ├── index.html                
 │   └── assets/
-│       ├── img/                     Fotos de productos, logo y portada del video
-│       └── video/                   comunidad-gamer.mp4 y .webm
-├── src/                             Código de la aplicación
-│   ├── index.js                     Punto de entrada: carga Bootstrap y dibuja <App />
-│   ├── index.css                    Tema gamer (colores y fuentes)
-│   ├── App.js                       Rutas y estado compartido (carrito, descuento)
-│   ├── App.spec.js                  Prueba 10 (integración)
-│   ├── components/                  Piezas reutilizables
-│   │   ├── Header.js                Menú responsivo con contador del carrito
-│   │   ├── ProductCard.js           Tarjeta de producto
-│   │   └── ProductCard.spec.js      Prueba 7
-│   ├── views/                       Una página por ruta
-│   │   ├── Inicio.js                /
-│   │   ├── Catalogo.js              /catalogo
-│   │   ├── Catalogo.spec.js         Prueba 9
-│   │   ├── Producto.js              /producto/:id
-│   │   ├── Carrito.js               /carrito
-│   │   ├── Login.js                 /login
-│   │   ├── Registro.js              /registro
-│   │   └── Registro.spec.js         Prueba 8
-│   ├── utils/                       Lógica sin pantalla
-│   │   ├── validaciones.js          Edad, correo Duoc, validación de formularios, formato de precio
-│   │   ├── validaciones.spec.js     Pruebas 1, 2, 3 y 4
-│   │   ├── carrito.js               Agregar, eliminar, cantidades y total
-│   │   └── carrito.spec.js          Pruebas 5 y 6
+│       ├── img/                   
+│       └── video/             
+├── src/                           
+│   ├── index.js                   
+│   ├── index.css                   
+│   ├── App.js                      
+│   ├── App.spec.js                 
+│   ├── components/                
+│   │   ├── Header.js                
+│   │   ├── ProductCard.js          
+│   │   └── ProductCard.spec.js    
+│   ├── views/                       
+│   │   ├── Inicio.js                
+│   │   ├── Catalogo.js           
+│   │   ├── Catalogo.spec.js       
+│   │   ├── Producto.js            
+│   │   ├── Carrito.js              
+│   │   ├── Login.js               
+│   │   ├── Registro.js             
+│   │   └── Registro.spec.js         
+│   ├── utils/                      
+│   │   ├── validaciones.js         
+│   │   ├── validaciones.spec.js     
+│   │   ├── carrito.js               
+│   │   └── carrito.spec.js          
 │   └── data/
-│       └── productos.js             Los 10 productos y las categorías
-├── karma.conf.js                    Configuración de Karma (Jasmine + webpack + Chrome sin ventana)
-├── test-entry.js                    Carga todos los *.spec.js para Karma
-├── package.json                     Dependencias y comandos (start, test, test:coverage, build)
-├── package-lock.json                Versiones exactas de las dependencias (se genera solo)
-├── .gitignore                       Excluye node_modules, build y coverage
-├── README.md                        Descripción, estructura y cómo correrlo
+│       └── productos.js
+├── karma.conf.js                    
+├── test-entry.js                    
+├── package.json                     
+├── package-lock.json               
+├── .gitignore                       
+├── README.md                        
 └── COBERTURA_TESTING.md     
 
 # Páginas
