@@ -1,0 +1,22 @@
+/* Tema de la tienda según la pauta del caso Level-Up Gamer */
+body {
+  background-color: #000000;      /* fondo principal negro */
+  color: #ffffff;                 /* texto principal blanco */
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, .navbar-brand {
+  font-family: 'Orbitron', sans-serif; /* fuente de encabezados */
+}
+.text-secundario { color: #d3d3d3; }   /* texto secundario gris claro */
+.card-gamer {
+  background-color: #111;
+  border: 1px solid #1e90ff;           /* azul eléctrico */
+}
+.btn-neon {
+  background-color: #39ff14;           /* verde neón */
+  border-color: #39ff14;
+  color: #000;
+  font-weight: 700;
+}
+.btn-neon:hover { background-color: #2fd410; border-color: #2fd410; color: #000; }
+.img-producto { height: 200px; object-fit: contain; background: #fff; }
